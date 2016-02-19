@@ -1,0 +1,41 @@
+#lightbox .modal-content{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#lightbox .modal-content {
+    display: inline-block;
+    padding-top: 50px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;  
+    border-radius: 0;
+
+    z-index: 1;
+}
+
+#lightbox .close {
+    color: black;
+    padding: 5px;
+    position: relative;
+    top: 50px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+
+    z-index: 2;
+}
+
+
+#lightbox .close:hover {
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+#lightbox .close:hover {
+    outline: none;
+}

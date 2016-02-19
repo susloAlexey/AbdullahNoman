@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Abdullah Noman</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--styles-->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css"> 
+  <link rel="stylesheet" type="text/css" href="css/gallery.css"> 
+  <!--fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Mr+Dafoe|Playfair+Display:400,700|Josefin+Sans:400|Slabo+27px' rel='stylesheet' type='text/css'>
+  <!--scripts--> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="js/gallery.js"></script>
+</head>
+<body>
+
+<div id="header">
+  <div class="jumbotron">
+    <div class="container">
+      <h1 id="the">The</h1>
+      <h1 id="name">Abdullah Noman</h1>
+      <h4>User Interface & User Experience Designer</h4>
+      <a href="#contact"><div class="to-contact">Hire Now</div></a>
+      <a href="#about"><div class="to-about"><span class="glyphicon glyphicon-menu-down"></span></div></a>
+    </div>
+  </div>
+</div>
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 text">
+        <h2>Hello</h2>
+        <h3>I’m Abdullah Noman</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <a href="#portfolio"><div class="to-portfolio">View Works<span class="glyphicon glyphicon-menu-down"></span></div></a>
+      </div>
+      <div class="col-sm-4 image">
+        <img class="img-responsive" src="image/about-1.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="portfolio">
+  <div class="container">
+    <div class="row row-gallery">
+
+      <div class="col-sm-4 col-sm-4">
+        <h2>Portfolio</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="#" data-toggle="modal" data-target="#lightbox"><div class="center-cropped" style="background-image: url(image/portfolio-1.jpg);"></div></a>
+        <a href="#" data-toggle="modal" data-target="#lightbox"><div class="center-cropped" style="background-image: url(image/portfolio-2.jpg);"></div></a>
+      </div> 
+
+      <div class="col-sm-4 col-sm-4">
+        <a href="#" data-toggle="modal" data-target="#lightbox"><div class="center-cropped" style="background-image: url(image/portfolio-3.jpg);"></div></a>
+        <a href="#" data-toggle="modal" data-target="#lightbox"><div class="center-cropped" style="background-image: url(image/portfolio-4.jpg);"></div></a>
+      </div> 
+
+      <div class="col-sm-4 col-mm-4 portfolio-last-col">
+        <a href="#" data-toggle="modal" data-target="#lightbox"><div class="center-cropped" style="background-image: url(image/portfolio-5.jpg);"></div></a>
+        <a href="#" data-toggle="modal" data-target="#lightbox"><div class="center-cropped" style="background-image: url(image/portfolio-6.jpg);"></div></a>
+      </div> 
+    </div>
+  </div>
+</div>
+
+<div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>        
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="" alt="" />
+        </div>
+      </div>
+  </div>
+</div>
+
+<div id="testimonial">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div class="container">
+  <br>
+   
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam voluptatem.</p>
+        <h3>Ahmed Hasan</h3>
+        <h4>Carsive Studio</h4>  
+      </div>
+
+      <div class="item">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <h3>Ali Hasan</h3>
+        <h4>Another Studio</h4>    
+      </div>
+    
+      <div class="item">
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem nemo enim ipsam voluptatem quia voluptas.</p>
+        <h3>John Doe</h3>
+        <h4>Pahom Studio</h4>    
+      </div>
+    </div>
+
+     <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+  </div>
+</div>
+</div>
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 text">
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col-md-7 form">
+        <form role="form" id="form1">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-sm-6 col-xs-12">
+                <input class="form-control" id="input-name" name="user-name" type="text" placeholder="Your Name" maxlength="30" autocomplete="off" required>
+              </div>
+              <div class="col-sm-6 col-xs-12">
+                <input class="form-control" id="input-subject" name="user-subject" type="text" placeholder="Subject" maxlength="30" autocomplete="off">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <textarea form="form1" class="form-control" id="input-message" rows="7" name="user-message" type="text" placeholder="Say Hello!" maxlength="400" autocomplete="off" required resize="none"></textarea>
+              </div>
+            </div> 
+            <input type="submit" id="input-submit" value="Send Now"><span class="glyphicon glyphicon-menu-right"></span>
+          </div>
+        </form>
+      </div>
+    </div> 
+  </div>
+</div>
+
+<div id="footer">
+  <div class="container">
+    <hr>
+    <div class="row">
+      <div class="col-xs-6">
+        <p>All Rights Reserved © Abdullah Noman 2016</p>  
+      </div>
+      <div class="col-xs-6">
+        <ul class="social">
+          <li><a href="#"><img src="image/twitter.png" alt="twitter"></a></li>
+          <li><a href="#"><img src="image/gplus.png" alt="gplus"></a></li>
+          <li><a href="#"><img src="image/facebook.png" alt="facebook"></a></li>
+          <li><a href="#"><img src="image/behance.png" alt="behance"></a></li>
+          <li><a href="#"><img src="image/dribbble.png" alt="dribbble"></a></li>
+        </ul>      
+      </div>      
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

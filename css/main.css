@@ -1,0 +1,265 @@
+#header .jumbotron {
+	width: 100%;
+	height: auto;
+	padding-bottom: 10%;
+	margin-bottom: 0;
+	text-align: center;	
+	color: white;
+	background-image: url(../image/header-bg.jpg);
+	background-position: center 30%;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;	
+	background-size: cover;
+}
+
+#header .container {
+	margin-top: 15%;
+}
+
+#header a {
+	color: white;
+}
+
+#header h1 {
+	margin-top: 0;
+}
+
+#header .to-contact {
+	width: 200px;
+	padding: 15px 20px;
+	font-size: 24px;
+	border: 1px solid white;
+	vertical-align: center;
+	border-radius: 50px; 
+	margin: 50px auto;
+}
+
+#header .to-about {
+	margin-top: 300px;
+}
+
+#header .to-about span {
+	padding: 10px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+#about {
+	margin-top: 0;
+	padding: 10% 0;
+	background-color: #efefef;
+}
+
+#about .text {
+	margin: 10% 0;
+}
+
+#about .to-portfolio {
+	width: 180px;
+	padding: 8px 0 8px 20px;
+	margin: 8% 0;
+	font-size: 18px;
+	border: 1px solid black;
+	vertical-align: center;
+	border-radius: 50px; 
+}
+
+#about .to-portfolio .glyphicon-menu-down {
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 8px;
+	margin: 0 10px;
+	font-size: 14px;
+	color: black;
+}
+
+#about a {
+	color: black;
+}
+
+#portfolio {
+	margin: 5% 0;
+	padding-top: 20px;
+}
+
+#portfolio p {
+	margin-bottom: 40px;
+}
+
+#portfolio .center-cropped {
+    width: 100%;
+    min-height: 500px;
+    margin-bottom: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;	
+	background-size: cover;
+}
+
+#portfolio a:focus {
+	outline: none;
+}
+
+#portfolio .portfolio-last-col {
+	margin-top: 50px;
+}
+
+#testimonial {
+	min-height: 400px;
+	text-align: center;
+	color: #ffffff;
+	background-image: url(../image/testimonial-bg.jpg);	
+	background-position: 50% 25%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;	
+	background-size: cover;
+	
+}
+
+#testimonial .item {
+	margin-top: 10%;	
+}
+
+#testimonial p {
+	margin-bottom: 40px;
+	font-size: 16px;
+}
+
+#testimonial .carousel-indicators {
+    position: relative;
+    top: 20px;	
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#testimonial .carousel-indicators li {	
+	height: 8px;
+	width: 8px;
+	background-color: #ffffff;
+}
+
+#testimonial .carousel-indicators li.active {
+	height: 8px;
+	width: 40px;
+}
+
+#contact {
+	padding: 10% 0;
+}
+
+#contact .form  #input-submit {
+	width: 180px;
+	padding: 12px 20px;
+	margin: 8% 0;
+	font-size: 18px;
+	vertical-align: center;
+	text-align: left;
+	border: 1px solid black;
+	border-radius: 50px; 
+	background-color: white;
+}
+
+#contact .form  #input-submit:hover {
+	text-decoration: underline;
+}
+
+#contact #input-message {
+	padding-top: 10%;
+	resize: none;
+}
+
+#contact .form-control {
+	border: none;
+	border-radius: 0;
+	outline: none;
+	box-shadow: none;
+	border-bottom: 1px solid black;
+	margin-top: 5%;
+}
+
+#contact input:focus {
+    outline: none;
+}
+
+#contact .form .glyphicon-menu-right {
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 8px;
+	margin: 0 10px;
+	font-size: 14px;
+	color: black;
+	cursor: pointer;
+	pointer-events: none;
+	position: relative;
+	right: 60px;
+	top: 3px;
+}
+
+#footer .row {
+	padding: 30px 0 40px 0;
+}
+
+#footer .social {
+	list-style: none;
+	padding: 0;
+	float: right;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#footer .social li {
+	margin: 0 15px;
+	display: inline;
+}
+
+#footer .social li:hover {
+	opacity: 0.6;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+
+#header #the,
+#about h2 {
+	font-family: 'Mr Dafoe', cursive;
+}
+
+#header h4,
+#header .to-contact,
+#about h3,
+#about .to-portfolio,
+#testimonial,
+#contact input,
+#contact textarea,
+#footer {
+    font-family: 'Playfair Display', serif;
+}
+
+#header #name {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#portfolio h2,
+#contact h2 {
+	font-family: 'Playfair Display', serif;	
+	font-weight: 600;
+}
+
+#about p,
+#portfolio p,
+#testimonial p,
+#contact p {
+	font-family: 'Slabo 27px', serif;
+}
